@@ -1,0 +1,16 @@
+{
+  "name": "pi-dynamic-models",
+  "version": "2.0.0",
+  "description": "Unobtrusive discovery for local / unnamed OpenAI-compatible providers (chat completions + responses). Registers providers from GET /models with zero or minimal config.",
+  "type": "module",
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": ["pi-extension", "pi-package", "openai-compatible", "local-llm", "provider"],
+  "license": "MIT"
+}
